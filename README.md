@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
   <meta charset="UTF-8">
   <title>Gameera, tu buscador de juegos</title>
@@ -7,10 +7,21 @@
 <body>
   <header>
       <h1>Busca tus juegos al mejor precio</h1>
-      <form id='form' name='form' method='post' action='resultados.php'>
-        <input id='search' name='search' type='text' placeholder='Busca aquí' onfocus='if(this.placeholder =='')this.placeholder ='Busca aquí'' />
+      <nav>
+        <form id='form' name='form' method='post' action='resultados.php'>
+        <input id='search' name='search' type='text' placeholder='Escribe aquí...' onfocus='if(this.placeholder =='')this.placeholder ='Busca aquí'' />
         <input type='submit' name='Submit' id='button' value='Buscar' />
-    </form>
+        </form>
+        <form id='form' name='form' method='post' action='login.php'>
+          <input type='submit' name='Submit' id='button' value='Iniciar sesión' />
+        </form>
+        <form id='form' name='form' method='post' action='register.php'>
+          <input type='submit' name='Submit' id='button' value='Únete' />
+        </form>
+      </nav>
     </header>
 </body>
+<footer>
+  
+</footer>
 </html>
