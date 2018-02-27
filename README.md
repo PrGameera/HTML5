@@ -16,7 +16,7 @@
         <li><a target="_blank" href="">Juegos de rol</a></li>
         <li><a target="_blank" href="">Juegos de cartas</a></li>
       </ul>
-      <input id="buscar" name"buscar" type="text" placeholder="Escribe aquí tu búsqueda" onfocus="if(this.placeholder=="") this.placeholder="Escribe aquí tu búsqueda"
+      <input id="buscador" name="buscador" type="text" placeholder="Introduce tu busqueda" onfocus='if(this.placeholder =='')this.placeholder ="Introduce tu busqueda" />
     </nav>
   </body>
 </html>
