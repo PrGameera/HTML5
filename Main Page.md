@@ -23,7 +23,7 @@
 </body>
 <footer>
   <ul>
-    <li><a href="contactanos" href="link">Contacta con nosotros</a></li>
+    <li><a href="_blank" href="contactanos.html">Contacta con nosotros</a></li>
   </ul>
 </footer>
 </html>
