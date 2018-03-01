@@ -8,14 +8,14 @@
   <header>
       <h1>Busca tus juegos al mejor precio</h1>
       <nav>
-        <form id='form' name='form' method='post' action='resultados.php'>
-          <input id='search' name='search' type='text' placeholder='Escribe aquí...' onfocus='if(this.placeholder =='')this.placeholder ='Busca aquí'' />
+        <form id='search' name='search' method='post' action='resultados.php'> /* Esto de aqui es el buscador */
+          <input id='search' name='search' type='text' placeholder='Escribe aquí...' onfocus='if(this.placeholder =='')this.placeholder ='Busca aquí' />
           <input type='submit' name='Submit' id='button' value='Buscar' />
         </form>
-        <form id='form' name='form' method='post' action='login.php'>
+        <form id='login' name='login' method='post' action='login.html'> /* Aqui va el boton de login */
           <input type='submit' name='Submit' id='button' value='Iniciar sesión' />
         </form>
-        <form id='form' name='form' method='post' action='register.php'>
+        <form id='form' name='form' method='post' action='register.php'> /* Aqui va el boton de registrarse */
           <input type='submit' name='Submit' id='button' value='Únete' />
         </form>
       </nav>
@@ -23,7 +23,7 @@
 </body>
 <footer>
   <ul>
-    <li><a href="_blank" href="contactanos.html">Contacta con nosotros</a></li>
+    <li><a target="_blank" href="contactanos.html">Contacta con nosotros</a></li>
   </ul>
 </footer>
 </html>
